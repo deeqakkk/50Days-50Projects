@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.container {
+    display: flex;
+    width: 100vh;
+}
+
+.panel {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 80vh;
+    width: 80%;
+    color: white;
+    cursor: pointer;
+    flex: 0.5;
+    margin: 10px;
+    position: relative;
+    transition: flex 0.7s ease-in;
+}
+
+.panel h3 {
+    font-size: 25px;
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    margin: 0;
+    opacity: 0;
+}
+
+.panel.active {
+    flex: 7;
+}
+
+.panel.active h3 {
+    opacity: 1;
+    transition: opacity 0.7s ease-in 0.4s;
+}
+
+.heading {
+    text-align: center;
+    margin: 1rem 0 0;
+}
+
+.desc {
+    text-align: center;
+    color: gray;
+    margin: 0 0 2rem
+}
+
+@media (max-width: 480px) {
+    .container {
+        width: 100vw;
+    }
+    /* It will hide the 4th and 5th panel when screen size is less than 480px */
+    .panel:nth-of-type(4),
+    .panel:nth-of-type(5) {
+        display: none;
+    }
+}
