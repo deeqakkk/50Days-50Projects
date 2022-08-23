@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+
+/* to define custom  variables/properties we need a scope*/
+
+
+/* using root scope here */
+
+:root {
+    --line-border-fill: #781C68;
+    --line-border-empty: #319DA0;
+    --font-color: rgb(0, 0, 0);
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #e2d0b7;
+}
+
+.heading {
+    color: var(--line-border-fill);
+    text-align: center;
+    font-size: 3rem;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.desc {
+    text-align: center;
+    margin: 1rem;
+    color: gray
+}
+
+.container {
+    text-align: center;
+}
+
+.progress-container {
+    display: flex;
+    justify-content: space-between;
+    /* it will take the space between 12345 and spread it evenly like 1 2 3 4 5  */
+    position: relative;
+    margin-bottom: 30px;
+    min-width: 100%;
+    width: 400px;
+}
+
+.progress-container::before {
+    content: "";
+    /* In order to use ::before or ::after we need to use content property as well  */
+    background-color: var(--line-border-empty);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 4px;
+    width: 100%;
+    /* try to hide the width property here and check the result*/
+    transform: translateY(-50%);
+    z-index: -1;
+}
+
+.progress {
+    background-color: var(--line-border-fill);
+    position: absolute;
+    top: 50%;
+    left: 0;
+    height: 4px;
+    width: 0%;
+    /* try to hide the width property here and check the result*/
+    transform: translateY(-50%);
+    z-index: -1;
+    transition: 0.4s ease;
+}
+
+.circle {
+    background-color: white;
+    color: var(--font-color);
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    /* to center the content use line 64--67*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid var(--line-border-empty);
+    transition: 0.4s ease;
+}
+
+.circle.active {
+    border-color: var(--line-border-fill);
+}
+
+.btn {
+    background-color: var(--line-border-fill);
+    color: white;
+    border: 0;
+    border-radius: 6px;
+    cursor: pointer;
+    font-family: inherit;
+    padding: 8px 30px;
+    margin: 5px;
+    font-size: 14px
+}
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+.btn:focus {
+    outline: 0;
+}
+
+.btn:disabled {
+    background-color: var(--line-border-empty);
+    cursor: not-allowed;
+}
