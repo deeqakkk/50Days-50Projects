@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    background-color: #efedd6;
+    overflow-x: hidden;
+}
+
+h1 {
+    margin: 10px;
+    text-decoration: underline;
+    margin: 3rem 0;
+}
+
+.box {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    height: 150px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 2px 3px 3px 2px #D61C4E;
+    /* Transfrom is used to move all the boxes 250% away on the right hand side */
+    transform: translateX(250%);
+    transition: transform 0.4s ease;
+}
+
+
+/* Here we are moving only even index boxes to the left side  */
+
+.box:nth-of-type(even) {
+    transform: translateX(-250%);
+}
+
+.box.show {
+    transform: translateX(0);
+}
+
+.box h2 {
+    font-size: 40px;
+}
