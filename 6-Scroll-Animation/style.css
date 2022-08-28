@@ -17,7 +17,13 @@ body {
 h1 {
     margin: 10px;
     text-decoration: underline;
-    margin: 3rem 0;
+    margin-top: 3rem;
+}
+
+.desc {
+    margin: 0;
+    color: gray;
+    margin-bottom: 3rem;
 }
 
 .box {
