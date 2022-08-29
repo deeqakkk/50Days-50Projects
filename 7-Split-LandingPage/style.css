@@ -2,7 +2,7 @@
 * {
     box-sizing: border-box;
 }
-
+/* defining variable for easy access and modifications */
 :root {
     --left-bg-color: rgb(170, 5, 5, 0.5);
     --right-bg-color: rgba(139, 69, 19, 0.5);
@@ -12,14 +12,14 @@
     --other-width: 25%;
     --speed: 1000ms;
 }
-
+/* Global properties */
 body {
     font-family: 'Ubuntu', sans-serif;
     height: 100vh;
     overflow: hidden;
     margin: 0
 }
-
+/* Properties for h1 tag */
 h1 {
     font-size: 4rem;
     color: #fff;
@@ -27,11 +27,14 @@ h1 {
     left: 50%;
     top: 20%;
     transform: translateX(-50%);
+/* 'nowrap' will make sure, when the screen size reduces, text don't gets to the next line */
     white-space: nowrap;
 }
 
+/* basic properties to style the buttons */
 .btn {
     position: absolute;
+/*   flex is used to center the content inside the button   */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -106,6 +109,7 @@ h1 {
 .split.left,
 .split.right::before,
 .split.right::before {
+/* transition is added to keep it smooth when left and right side is changing is width     */
     transition: all var(--speed) ease-in-out;
 }
 
@@ -125,6 +129,7 @@ h1 {
     width: var(--hover-width);
 }
 
+/* media query to handle the small screen windows */
 @media(max-width:800px) {
     h1 {
         font-size: 2rem;
