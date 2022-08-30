@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css2?family=Muli');
+* {
+    box-sizing: border-box;
+}
+
+
+/* setting some global porperties throught the body */
+
+body {
+    font-family: 'Muli', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #293462;
+    color: #fff;
+}
+
+
+/* setting the styling of the container div */
+
+.container {
+    background-color: rgba(0, 0, 0, 0.4);
+    padding: 20px 40px;
+    border-radius: 5px;
+}
+
+
+/* adding properties to the heading tag h1 */
+
+.container h1 {
+    text-align: center;
+    margin: 0;
+}
+
+
+/* adding the properties to the p tag with class .desc */
+
+.desc {
+    text-align: center;
+    color: gray;
+    margin-bottom: 3rem;
+}
+
+
+/* targetting the anchor tag which is inside .container */
+
+.container a {
+    text-decoration: none;
+    color: #1CD6CE;
+}
+
+
+/* custom style for the button */
+
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    width: 100%;
+    background: #1CD6CE;
+    padding: 15px;
+    font-family: inherit;
+    font-size: 16px;
+    border: 0;
+    border-radius: 5px;
+}
+
+
+/* when button is clicked, its outline =0 */
+
+.btn:focus {
+    outline: 0;
+}
+
+
+/* adding a effect to squeeze the button a bit when it is clicked */
+
+.btn:active {
+    transform: scale(0.98);
+}
+
+
+/* adding property to the .text class */
+
+.text {
+    margin-top: 30px;
+}
+
+
+/* setting .form-cotrol to relative so that we can use absolute in bottom sections */
+
+.form-control {
+    position: relative;
+    margin: 20px 0 40px;
+    width: 300px;
+}
+
+
+/* adding properties to the input fields */
+
+.form-control input {
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px #fff solid;
+    display: block;
+    width: 100%;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #fff
+}
+
+
+/* adding properties to the input field when it is clicked and valid */
+
+.form-control input:focus,
+.form-control input:valid {
+    outline: 0;
+    border-bottom-color: #1CD6CE;
+}
+
+
+/* using the position property to take the label tag 15px up */
+
+.form-control label {
+    position: absolute;
+    top: 15px;
+    left: 0;
+}
+
+.form-control label span {
+    display: inline-block;
+    font-size: 18px;
+    min-width: 5px;
+    /* It defines a curve, we can use it as a transtion effect */
+    /* It take 4 parameters p0, p1, p2 , p3 */
+    transition: 0.3s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+
+/* span that we have created using js, we are adding required properties to them */
+
+
+/* to keep the animation */
+
+.form-control input:focus+label span,
+.form-control input:valid+label span {
+    color: #1CD6CE;
+    transform: translateY(-30px);
+}
