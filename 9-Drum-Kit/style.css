@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+* {
+    box-sizing: border-box;
+}
+
+
+/* These are some basic CSS property, still confused? let me know in comments on github/twitter, will help you out */
+
+body {
+    font-family: 'Poppins', sans-serif;
+    height: 100vh;
+    overflow: hidden;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ef5b0c;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+#buttons h1 {
+    margin: 0;
+    font-size: 4rem;
+    color: #fff;
+    text-decoration: underline;
+}
+
+#buttons p {
+    color: rgb(211, 210, 210);
+    margin: 0;
+    margin-bottom: 5rem;
+}
+
+.btn {
+    background-color: #003865;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    margin: 1rem;
+    padding: 1.5rem 3rem;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+
+.btn:focus {
+    cursor: pointer;
+    outline: none;
+    background-color: rebeccapurple;
+}
+
+.btn:hover {
+    opacity: 0.7;
+}
