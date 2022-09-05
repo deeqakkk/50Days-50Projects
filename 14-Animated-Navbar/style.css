@@ -14,6 +14,9 @@ body {
     margin: 0;
 }
 
+
+/* styling the nav  */
+
 nav {
     background-color: #fff;
     padding: 20px;
@@ -30,6 +33,9 @@ nav {
 nav.active {
     width: 350px;
 }
+
+
+/* Manging the properties of ul tag */
 
 nav ul {
     display: flex;
@@ -50,10 +56,16 @@ nav ul li {
     transition: transform 0.6s linear, opacity 0.6s linear;
 }
 
+
+/* it will set the opacity to 1 and roate the li elements 360deg */
+
 nav.active ul li {
     opacity: 1;
     transform: rotateY(360deg);
 }
+
+
+/* styling the anchor tag */
 
 nav ul a {
     position: relative;
@@ -61,6 +73,9 @@ nav ul a {
     text-decoration: none;
     margin: 0 10px;
 }
+
+
+/* styling the icon div's */
 
 .icon {
     background-color: #fff;
@@ -71,6 +86,9 @@ nav ul a {
     height: 30px;
     width: 30px;
 }
+
+
+/* Removing the outline when icon is clicked */
 
 .icon:focus {
     outline: 0;
