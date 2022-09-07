@@ -8,13 +8,17 @@ const remained =
 
 updateBigCup();
 
+// Iterating through smallCups array
 smallCups.forEach((cup, index) => {
+//     handling the each click and calling the highlightCups() function to handle that
     cup.addEventListener('click', () =>
         highlightCups(index)
     );
 });
 
+// Highlight function
 function highlightCups(index) {
+//     if a glass is already fill and we again click on it, this condition will reduce the current index by 1
     if (
         smallCups[index].classList.contains('full') &&
         !smallCups[
@@ -25,13 +29,16 @@ function highlightCups(index) {
     ) {
         index--;
     }
+//     iterating through each small cups and adding a class of 'full' 
     smallCups.forEach((cup, index2) => {
+//         this condition will make sure that all the jars before the clicked jar also gets 'highlighted' on click
         if (index2 <= index) {
             cup.classList.add('full');
         } else {
             cup.classList.remove('full');
         }
     });
+//     calling the updateBigCup
     updateBigCup();
 }
 
@@ -40,11 +47,16 @@ function updateBigCup() {
         '.cup-small.full'
     ).length;
     console.log(fullCups);
+//     counting the total number of small cups
     const totalCups = smallCups.length;
+//     if the fullcup means no jar is clicked it means 100% of water is remaining to drink
     if (fullCups === 0) {
+//         visibility of the bigger jar water percentage as hidden
         percentage.style.visibility = 'hidden';
+//        so setting height =0
         percentage.style.height = 0;
     } else {
+//         if any of the small jar is clicked then enabling the visibility of the percentage and water height in bigger container
         percentage.style.visibility = 'visible';
         percentage.style.height = `${
       (fullCups / totalCups) * 330
