@@ -65,7 +65,7 @@ function updateBigCup() {
       (fullCups / totalCups) * 100
     }%`;
     }
-
+// CHALLENGE : Try understanding following lines of code and its functioning, share your answer in the comment section
     if (fullCups === totalCups) {
         remained.style.visibility = 'hidden';
         remained.style.height = 0;
