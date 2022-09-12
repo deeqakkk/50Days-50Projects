@@ -1,6 +1,6 @@
-# 50Days-50Projects : Frontend
+# A Journey With Js
 ## About
-### This repo contains my 50 Projects that I completed in continous 50 Days to brush up my frontend skills.
+### This repo Projects that I completed in continous Days to brush up my frontend skills.
 | S.No.  | Project Name  | Access Here  | 
 |:-:|:-:|:-:|
 |1   |  <a href="https://github.com/deeqakkk/50Days-50Projects/tree/main/1-Expanding-Cards" target="_blank" rel="noopener noreferrer">Expanding Cards</a> | <a href="https://deeqakkk.github.io/50Days-50Projects/1-Expanding-Cards/" target="_blank" rel="noopener noreferrer">Live Here</a>  |  
