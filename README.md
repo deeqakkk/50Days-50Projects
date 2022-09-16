@@ -1,4 +1,4 @@
-# A Journey With Js
+# Journey With Js
 ## About
 ### This repo Projects that I completed in continous Days to brush up my frontend skills.
 | S.No.  | Project Name  | Access Here  | 
