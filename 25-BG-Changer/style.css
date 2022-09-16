@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    flex-direction: column;
+}
+
+input {
+    height: 36px;
+    width: 100%;
+    font-family: "Mouse Memoirs", sans-serif;
+    color: black;
+    text-align: center;
+    background: none;
+    border: none;
+    margin-bottom: 30px;
+    font-size: 32px;
+    line-height: 36px;
+    letter-spacing: 1px;
+    resize: none;
+    overflow: hidden;
+    box-sizing: border-box;
+}
+
+ ::placeholder {
+    color: #663b03aa !important;
+}
+
+input:focus {
+    outline: 0;
+}
+
+input {
+    outline: none;
+}
