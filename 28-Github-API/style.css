@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,400&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: #2a22a2;
+    flex-direction: column;
+}
+
+.user-form {
+    width: 100%;
+    max-width: 700px;
+}
+
+.user-form input {
+    width: 100%;
+    display: block;
+    background-color: #4c2a85;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    font-family: inherit;
+    font-size: 1rem;
+    /* box-shadow can be generated here : https://www.cssmatic.com/box-shadow */
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.user-form input:focus {
+    outline: none;
+}
+
+.user-form input::placeholder {
+    color: #bbb;
+}
+
+.card {
+    max-width: 800px;
+    background-color: #4c2885;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.75);
+    display: flex;
+    padding: 3rem;
+    margin: 0 1.5rem;
+    color: white;
+}
+
+.avatar {
+    border-radius: 50%;
+    border: 10px solid#2a3a72;
+    height: 150px;
+    width: 150px;
+}
+
+.user-info {
+    color: #eee;
+    margin-left: 2rem;
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.user-info ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 400px;
+}
+
+.user-info ul li {
+    display: flex;
+    align-items: center;
+}
+
+.user-info ul li strong {
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+}
+
+.repos {
+    text-decoration: none;
+    color: white;
+    background-color: #2a2a72;
+    font-size: 0.7rem;
+    padding: 0.25rem 0.5rem;
+    margin-right: 0.5rem;
+    margin-bottom: 0.5rem;
+    display: inline-block;
+}
+
+
+/* Media query to handle the small size screens */
+
+@media(max-width:500px) {
+    .card {
+        flex-direction: column;
+        align-items: center;
+        margin: 0 2rem;
+    }
+    .user-form {
+        min-width: 400px;
+    }
+}
