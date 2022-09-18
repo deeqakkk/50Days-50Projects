@@ -4,8 +4,8 @@ const toasts = document.getElementById('toasts');
 // Random message array
 const messages = [
     'Hey, how are you?',
-    'Hello, hopefully you are doing well.',
-    'Wow, such a cute puppy!',
+    'Learning HTML, CSS & Js?',
+    'Follow me at @deeqakkk',
     'Hello, Im Deepak'
 ];
 
