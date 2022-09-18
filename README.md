@@ -1,7 +1,7 @@
 # Journey With Js
 ## About
 ### This repo Projects that I completed in continous Days to brush up my frontend skills.
-| S.No.  | Project Name  | Access Here  | 
+| S.No.  | Project Name  | Demo Here  | 
 |:-:|:-:|:-:|
 |1   |  <a href="https://github.com/deeqakkk/50Days-50Projects/tree/main/1-Expanding-Cards" target="_blank" rel="noopener noreferrer">Expanding Cards</a> | <a href="https://deeqakkk.github.io/50Days-50Projects/1-Expanding-Cards/" target="_blank" rel="noopener noreferrer">Live Here</a>  |  
 | 2  | <a href="https://github.com/deeqakkk/50Days-50Projects/tree/main/2-Progress-Steps" target="_blank" rel="noopener noreferrer">Progress Steps</a>  | <a href="https://deeqakkk.github.io/50Days-50Projects/2-Progress-Steps" target="_blank" rel="noopener noreferrer">Live Here</a>  |
@@ -29,3 +29,4 @@
 |  24 |<a href="https://github.com/deeqakkk/50Days-50Projects/tree/main/24-Content-Placeholder" target="_blank" rel="noopener noreferrer">Content Placeholder</a>| <a href="https://deeqakkk.github.io/50Days-50Projects/24-Content-Placeholder" target="_blank" rel="noopener noreferrer">Live Here</a>|
 |  25 |<a href="https://github.com/deeqakkk/50Days-50Projects/tree/main/25-BG-Changer" target="_blank" rel="noopener noreferrer">BG Changer</a>| <a href="https://deeqakkk.github.io/50Days-50Projects/25-BG-Changer" target="_blank" rel="noopener noreferrer">Live Here</a>|
 |  26 |<a href="https://github.com/deeqakkk/50Days-50Projects/tree/main/26-Vertical-Slider" target="_blank" rel="noopener noreferrer">Vertical Slider</a>| <a href="https://deeqakkk.github.io/50Days-50Projects/26-Vertical-Slider" target="_blank" rel="noopener noreferrer">Live Here</a>|
+|  27 |<a href="https://github.com/deeqakkk/50Days-50Projects/tree/main/27-Notification" target="_blank" rel="noopener noreferrer">Notification</a>| <a href="https://deeqakkk.github.io/50Days-50Projects/27-Notification" target="_blank" rel="noopener noreferrer">Live Here</a>|
