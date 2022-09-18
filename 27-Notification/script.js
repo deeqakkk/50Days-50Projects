@@ -3,10 +3,10 @@ const toasts = document.getElementById('toasts');
 
 // Random message array
 const messages = [
-    'Message One',
-    'Message Two',
-    'Message Three',
-    'Message Four'
+    'Hey, how are you?',
+    'Hello, hopefully you are doing well.',
+    'Wow, such a cute puppy!',
+    'Hello, Im Deepak'
 ];
 
 // random types array that will basically change the color of the notification
