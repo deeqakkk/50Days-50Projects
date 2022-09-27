@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(38, 36, 36);
+}
+
+
+/* styling the container */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 400px;
+}
+
+
+/* styling the square boxes that will be added via js */
+
+.square {
+    background-color: #1d1d1d;
+    box-shadow: 0 0 2px black;
+    height: 16px;
+    width: 16px;
+    margin: 2px;
+    transition: 2s ease;
+    border: 1px solid #AC7088;
+}
+
+
+/* adding the hover effect */
+
+.square:hover {
+    transition-duration: 0s;
+    transform: scale(0.7);
+}
