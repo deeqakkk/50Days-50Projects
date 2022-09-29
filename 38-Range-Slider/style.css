@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    background-color: yellowgreen;
+    flex-direction: column;
+}
+
+h2 {
+    margin: 4rem;
+}
+
+.range-container {
+    position: relative;
+}
+
+input[type='range'] {
+    width: 300px;
+    margin: 18px 0;
+    -webkit-appearance: none;
+}
+
+input[type='range']+label {
+    background-color: white;
+    position: absolute;
+    top: -25px;
+    left: 110px;
+    width: 80px;
+    padding: 5px 0;
+    text-align: center;
+    border-radius: 4px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.4);
+}
+
+
+/* For chrome & safari */
+
+input[type='range']::-webkit-slider-runnable-track {
+    background-color: purple;
+    border-radius: 4px;
+    width: 100%;
+    height: 10px;
+    cursor: pointer;
+}
+
+
+/* styling the circle that handles the slider value */
+
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin-top: -5px;
+}
+
+input[type='range' i] {
+    background-color: transparent;
+}
+
+input[type='range']:focus {
+    outline: none;
+}
+
+
+/* for firefox */
+
+input[type='range']::-moz-range-track {
+    background-color: purple;
+    border-radius: 4px;
+    width: 100%;
+    height: 13px;
+    cursor: pointer;
+}
+
+
+/* styling the circle that handles the slider value */
+
+input[type='range']::-moz-range-thumb {
+    -webkit-appearance: none;
+    border: 1px solid #000;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background: #fff;
+    cursor: pointer;
+    margin-top: -5px;
+}
