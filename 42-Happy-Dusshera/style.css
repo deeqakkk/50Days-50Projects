@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: lightgray;
+   
     font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
@@ -52,6 +52,7 @@ body {
 .boxes.big {
     width: 600px;
     height: 600px;
+    margin-top:3rem;
 }
 
 .boxes.big .box {
