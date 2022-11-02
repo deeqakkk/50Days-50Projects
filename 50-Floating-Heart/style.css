@@ -12,7 +12,7 @@ span {
     position: absolute;
     background-size: cover;
     transform: translate(-50%, -50%);
-    animation: animate 5s infinite;
+    animation: animate 10s infinite;
     pointer-events: none;
 }
 
