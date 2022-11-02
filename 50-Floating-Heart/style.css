@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    background-color: black;
+}
+
+span {
+    background: url('https://cdn0.iconfinder.com/data/icons/expenses-vs-income/30/__beauty_health_cosmetics_heart-512.png');
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    background-size: cover;
+    transform: translate(-50%, -50%);
+    animation: animate 5s infinite;
+    pointer-events: none;
+}
+
+@keyframes animate {
+    0% {
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+    100% {
+        transform: translate(-50%, -5000%);
+        opacity: 0;
+        filter: hue-rotate(720deg);
+    }
+}
