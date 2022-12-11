@@ -33,7 +33,6 @@
             "projectName": "Blurry Loading",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/5-Blurry-Loading/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/5-Blurry-Loading"
-
         },
         {
             "serialNo": 6,
@@ -48,7 +47,8 @@
             "projectName": "Split Landing Page",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/7-Split-LandingPage/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/7-Split-LandingPage"
-        }, {
+        },
+        {
             "serialNo": 9,
             "projectImageLink": "./image/9.1.gif",
             "projectName": "Sound Bar",
@@ -62,7 +62,6 @@
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/8-Form-Input-Wave/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/8-Form-Input-Wave"
         },
-
         {
             "serialNo": 10,
             "projectImageLink": "./image/9.gif",
@@ -127,20 +126,6 @@
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/18-Image-Slider"
         },
         {
-            "serialNo": 19,
-            "projectImageLink": "./image/18.gif",
-            "projectName": "Theme Clock",
-            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/19-Theme-Clock/",
-            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/19-Theme-Clock"
-        },
-        {
-            "serialNo": 20,
-            "projectImageLink": "./image/19.gif",
-            "projectName": "Button Ripple Effect",
-            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/20-Ripple-Effect/",
-            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/20-Ripple-Effect"
-        },
-        {
             "serialNo": 21,
             "projectImageLink": "./image/20.gif",
             "projectName": "Drag & Drop",
@@ -153,6 +138,13 @@
             "projectName": "Drawing App",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/22-Drawing-Board/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/22-Drawing-Board"
+        },
+        {
+            "serialNo": 19,
+            "projectImageLink": "./image/18.gif",
+            "projectName": "Theme Clock",
+            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/19-Theme-Clock/",
+            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/19-Theme-Clock"
         },
         {
             "serialNo": 23,
@@ -197,11 +189,11 @@
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/28-Github-API"
         },
         {
-            "serialNo": 29,
-            "projectImageLink": "./image/28.gif",
-            "projectName": "Like | Double Click",
-            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/29-Double-Click-Heart/",
-            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/29-Double-Click-Heart"
+            "serialNo": 49,
+            "projectImageLink": "./image/45.gif",
+            "projectName": "Floating Heart",
+            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/50-Floating-Heart/",
+            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/50-Floating-Heart"
         },
         {
             "serialNo": 30,
@@ -239,11 +231,25 @@
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/34-Animated-Count"
         },
         {
+            "serialNo": 20,
+            "projectImageLink": "./image/19.gif",
+            "projectName": "Button Ripple Effect",
+            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/20-Ripple-Effect/",
+            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/20-Ripple-Effect"
+        },
+        {
             "serialNo": 35,
             "projectImageLink": "./image/31.2.gif",
             "projectName": "Feedback Form",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/35-Feedback-Form/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/35-Feedback-Form"
+        },
+        {
+            "serialNo": 38,
+            "projectImageLink": "./image/34.gif",
+            "projectName": "Range Slider",
+            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/38-Range-Slider/",
+            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/38-Range-Slider"
         },
         {
             "serialNo": 36,
@@ -258,13 +264,6 @@
             "projectName": "Mobile Tab Navigation",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/37-Mobile-UI/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/37-Mobile-UI"
-        },
-        {
-            "serialNo": 38,
-            "projectImageLink": "./image/34.gif",
-            "projectName": "Range Slider",
-            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/38-Range-Slider/",
-            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/38-Range-Slider"
         },
         {
             "serialNo": 39,
@@ -335,13 +334,6 @@
             "projectName": "Wave Effect",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/49-Wave-Effect/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/49-Wave-Effect"
-        },
-        {
-            "serialNo": 49,
-            "projectImageLink": "./image/45.gif",
-            "projectName": "Floating Heart",
-            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/50-Floating-Heart/",
-            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/50-Floating-Heart"
         }
     ]
 }
