@@ -7,10 +7,9 @@ fetch('data.json').then(response => {
     const dataFound = data.projects;
     dataFound.forEach(item => {
         const div = document.createElement('div');
-        console.log(item.serialNo);
         div.classList.add('group');
         div.innerHTML = `
-        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"> 
+        <div class="aspect-w-1 aspect-h-1 w-full overflow-hidden border rounded-lg bg-gray-200 xl:aspect-w-7 xl:aspect-h-8"> 
             <img src="${item.projectImageLink}" alt="projectImage" class="h-full w-full object-cover object-center group-hover:opacity-75">
         </div>
         <div class="flex  justify-between mt-5 align-middle">

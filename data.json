@@ -48,6 +48,12 @@
             "projectName": "Split Landing Page",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/7-Split-LandingPage/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/7-Split-LandingPage"
+        }, {
+            "serialNo": 9,
+            "projectImageLink": "./image/9.1.gif",
+            "projectName": "Sound Bar",
+            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/9-Sound-Bar/",
+            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/9-Sound-Bar"
         },
         {
             "serialNo": 8,
@@ -56,13 +62,7 @@
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/8-Form-Input-Wave/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/8-Form-Input-Wave"
         },
-        {
-            "serialNo": 9,
-            "projectImageLink": "./image/9.1.gif",
-            "projectName": "Sound Bar",
-            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/9-Sound-Bar/",
-            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/9-Sound-Bar"
-        },
+
         {
             "serialNo": 10,
             "projectImageLink": "./image/9.gif",
@@ -219,35 +219,35 @@
         },
         {
             "serialNo": 32,
-            "projectImageLink": "./image/31.gif",
+            "projectImageLink": "./image/32.1.gif",
             "projectName": "OTP Validation",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/32-ValidateOTP/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/32-ValidateOTP"
         },
         {
             "serialNo": 33,
-            "projectImageLink": "./image/33.gif",
+            "projectImageLink": "./image/33.1.gif",
             "projectName": "Note App",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/33-Note-App/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/33-Note-App"
         },
         {
             "serialNo": 34,
-            "projectImageLink": "./image/34.gif",
-            "projectName": "Insect Catch Game",
-            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/34-Insect-Catch-Game/",
-            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/34-Insect-Catch-Game"
+            "projectImageLink": "./image/31.gif",
+            "projectName": "Animated Countdown",
+            "projectLink": "https://deeqakkk.github.io/50Days-50Projects/34-Animated-Count",
+            "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/34-Animated-Count"
         },
         {
             "serialNo": 35,
-            "projectImageLink": "./image/35.gif",
+            "projectImageLink": "./image/31.2.gif",
             "projectName": "Feedback Form",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/35-Feedback-Form/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/35-Feedback-Form"
         },
         {
             "serialNo": 36,
-            "projectImageLink": "./image/36.gif",
+            "projectImageLink": "./image/32.gif",
             "projectName": "Hoverboard",
             "projectLink": "https://deeqakkk.github.io/50Days-50Projects/36-HoverBoard/",
             "sourceCode": "https://github.com/deeqakkk/50Days-50Projects/tree/main/36-HoverBoard"
