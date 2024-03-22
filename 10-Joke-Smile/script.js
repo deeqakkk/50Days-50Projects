@@ -3,7 +3,7 @@ const jokeElement =
 const jokeBtn =
     document.getElementById('jokeBtn');
 
-// addomg a click event to the button to call the generateJoke function
+// adding a click event to the button to call the generateJoke function
 jokeBtn.addEventListener('click', generateJoke);
 generateJoke();
 
